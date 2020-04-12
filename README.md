@@ -1,3 +1,5 @@
 # FBtoSnomContactConverter
 
-sudo python3 -m pip install flask lxml
+docker build -t contact-converter
+
+docker run -p 80:80 contact-converter
